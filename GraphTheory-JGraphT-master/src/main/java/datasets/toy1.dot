@@ -1,0 +1,9 @@
+digraph "toy1.jar" {
+    // Path: toy1.jar
+"A" -> "B";
+"A" -> "C";
+"B" -> "C";
+"C" -> "D";
+"C" -> "E";
+"E" -> "B";
+}
